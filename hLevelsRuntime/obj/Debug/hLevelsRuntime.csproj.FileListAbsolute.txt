@@ -1,0 +1,2 @@
+/Users/dannygallagher/RiderProjects/hLevels/hLevelsRuntime/obj/Debug/hLevelsRuntime.csprojAssemblyReference.cache
+/Users/dannygallagher/RiderProjects/hLevels/hLevelsRuntime/obj/Debug/hLevelsRuntime.csproj.CoreCompileInputs.cache

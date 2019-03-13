@@ -1,0 +1,6 @@
+/Users/dannygallagher/RiderProjects/hLevels/hLevels/bin/Debug/hLevels.dll
+/Users/dannygallagher/RiderProjects/hLevels/hLevels/bin/Debug/hLevels.pdb
+/Users/dannygallagher/RiderProjects/hLevels/hLevels/obj/Debug/hLevels.csprojAssemblyReference.cache
+/Users/dannygallagher/RiderProjects/hLevels/hLevels/obj/Debug/hLevels.csproj.CoreCompileInputs.cache
+/Users/dannygallagher/RiderProjects/hLevels/hLevels/obj/Debug/hLevels.dll
+/Users/dannygallagher/RiderProjects/hLevels/hLevels/obj/Debug/hLevels.pdb
