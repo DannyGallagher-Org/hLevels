@@ -28,5 +28,10 @@ namespace hLevelsRuntime
             
             promise.Resolve();
         }
+
+        public static IPromise PromiseLoadAdditiveScenesFromList(string[] sceneLayers)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

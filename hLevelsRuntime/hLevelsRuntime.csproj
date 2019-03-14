@@ -43,6 +43,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdditiveScene.cs" />
     <Compile Include="HLoad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticCoroutine.cs" />
