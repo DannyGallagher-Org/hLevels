@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="badb2dee-aab1-49f4-aa81-7db4b3603c5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hLevelsRuntime/AdditiveScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hLevels.sln" beforeDir="false" afterPath="$PROJECT_DIR$/hLevels.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hLevelsEditor/bin/Debug/hLevelsEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/hLevelsEditor/bin/Debug/hLevelsEditor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hLevelsEditor/obj/Debug/hLevelsEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/hLevelsEditor/obj/Debug/hLevelsEditor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hLevelsRuntime/HLoadAsync.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hLevels/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hLevels/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hLevels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hLevels/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hLevelsRuntime/HLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/hLevelsRuntime/HLoad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hLevelsRuntime/bin/Debug/hLevelsRuntime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/hLevelsRuntime/bin/Debug/hLevelsRuntime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hLevelsRuntime/bin/Debug/hLevelsRuntime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/hLevelsRuntime/bin/Debug/hLevelsRuntime.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hLevelsRuntime/hLevelsRuntime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/hLevelsRuntime/hLevelsRuntime.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hLevelsRuntime/obj/Debug/hLevelsRuntime.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/hLevelsRuntime/obj/Debug/hLevelsRuntime.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hLevelsRuntime/obj/Debug/hLevelsRuntime.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hLevelsRuntime/obj/Debug/hLevelsRuntime.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hLevelsRuntime/obj/Debug/hLevelsRuntime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/hLevelsRuntime/obj/Debug/hLevelsRuntime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hLevelsRuntime/obj/Debug/hLevelsRuntime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/hLevelsRuntime/obj/Debug/hLevelsRuntime.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +20,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hLevelsRuntime/HLoad.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="93" lean-forward="true" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+            <state relative-caret-position="173">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="24" selection-end-column="27" />
               <folding>
-                <marker date="1552504074177" expanded="true" signature="6:90" ph="..." />
-                <marker date="1552504074177" expanded="true" signature="116:1181" ph="{...}" />
-                <marker date="1552504074177" expanded="true" signature="148:1179" ph="{...}" />
-                <marker date="1552504074177" expanded="true" signature="228:479" ph="{...}" />
-                <marker date="1552504074177" expanded="true" signature="571:779" ph="{...}" />
-                <marker date="1552504074177" expanded="true" signature="877:1009" ph="{...}" />
-                <marker date="1552504074177" expanded="true" signature="1097:1173" ph="{...}" />
+                <marker date="1552556521143" expanded="false" signature="6:90" ph="..." />
+                <marker date="1552556521143" expanded="true" signature="116:1468" ph="{...}" />
+                <marker date="1552556521143" expanded="true" signature="148:1466" ph="{...}" />
+                <marker date="1552556521143" expanded="true" signature="232:766" ph="{...}" />
+                <marker date="1552556521143" expanded="true" signature="582:675" ph="{...}" />
+                <marker date="1552556521143" expanded="true" signature="858:1066" ph="{...}" />
+                <marker date="1552556521143" expanded="true" signature="1164:1296" ph="{...}" />
+                <marker date="1552556521143" expanded="true" signature="1384:1460" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hLevelsRuntime/HLoadAsync.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <marker date="1552556862058" expanded="true" signature="6:94" ph="..." />
+                <marker date="1552556862058" expanded="true" signature="120:1461" ph="{...}" />
+                <marker date="1552556862058" expanded="true" signature="157:1459" ph="{...}" />
+                <marker date="1552556862058" expanded="true" signature="246:797" ph="{...}" />
+                <marker date="1552556862058" expanded="true" signature="613:706" ph="{...}" />
+                <marker date="1552556862058" expanded="true" signature="902:1049" ph="{...}" />
+                <marker date="1552556862058" expanded="true" signature="1158:1263" ph="{...}" />
+                <marker date="1552556862058" expanded="true" signature="1348:1453" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -40,12 +62,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hLevelsRuntime/AdditiveScene.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="150">
+              <caret line="11" column="92" lean-forward="true" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
               <folding>
-                <marker date="1552504069550" expanded="true" signature="6:29" ph="..." />
-                <marker date="1552504069550" expanded="true" signature="55:416" ph="{...}" />
-                <marker date="1552504069550" expanded="true" signature="194:414" ph="{...}" />
+                <marker date="1552556077132" expanded="false" signature="6:29" ph="..." />
+                <marker date="1552556077132" expanded="true" signature="55:416" ph="{...}" />
+                <marker date="1552556077132" expanded="true" signature="194:414" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -54,10 +76,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hLevelsRuntime/StaticCoroutine.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
-                <marker date="1552501245561" expanded="true" signature="6:133" ph="..." />
+                <marker date="1552501245561" expanded="false" signature="6:133" ph="..." />
                 <marker date="1552501245561" expanded="true" signature="159:4235" ph="{...}" />
                 <marker date="1552501245561" expanded="true" signature="219:4233" ph="{...}" />
                 <marker date="1552501245561" expanded="true" signature="361:745" ph="{...}" />
@@ -90,6 +112,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/hLevelsRuntime/AdditiveScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/hLevelsRuntime/HLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/hLevelsRuntime/HLoadAsync.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/hLevelsRuntime/StaticCoroutine.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -100,15 +123,17 @@
         <option value="$PROJECT_DIR$/hLevelsRuntime/MonoBehaviour1.cs" />
         <option value="$PROJECT_DIR$/hLevelsRuntime/StaticCoroutine.cs" />
         <option value="$PROJECT_DIR$/hLevelsRuntime/AdditiveScene.cs" />
+        <option value="$PROJECT_DIR$/hLevelsRuntime/HLoadIEnumerator.cs" />
         <option value="$PROJECT_DIR$/hLevelsRuntime/HLoad.cs" />
+        <option value="$PROJECT_DIR$/hLevelsRuntime/HLoadAsync.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="826" />
-    <option name="y" value="-956" />
-    <option name="width" value="1000" />
-    <option name="height" value="947" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="45" />
+    <option name="y" value="-553" />
+    <option name="width" value="1680" />
+    <option name="height" value="949" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,19 +170,6 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="hLevels" type="24d0babc:SolutionExplorerModelNode" />
               <item name="hLevelsRuntime" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="hLevels" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="hLevelsRuntime" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="hLevels" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="hLevelsRuntime" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assemblies" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -212,6 +224,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552500259548</updated>
       <workItem from="1552500260777" duration="4799000" />
+      <workItem from="1552556027485" duration="2082000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1552502266823</created>
@@ -224,7 +237,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4799000" />
+    <option name="totallyTimeSpent" value="6881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,23 +249,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="826" y="-956" width="1000" height="947" extended-state="0" />
+    <frame x="-82" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16410571" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11448349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32980457" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Change Signature" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.2011696" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -260,18 +264,27 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32980457" />
+      <window_info anchor="bottom" id="Change Signature" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="15" visible="true" weight="0.17029703" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -288,33 +301,15 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hLevels/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hLevelsEditor/MonoBehaviour1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hLevelsRuntime/MonoBehaviour1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hLevels/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/hLevelsEditor/MonoBehaviour1.cs" />
+    <entry file="file://$PROJECT_DIR$/hLevelsRuntime/MonoBehaviour1.cs" />
     <entry file="file://$PROJECT_DIR$/hLevelsRuntime/StaticCoroutine.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <marker date="1552501245561" expanded="true" signature="6:133" ph="..." />
+            <marker date="1552501245561" expanded="false" signature="6:133" ph="..." />
             <marker date="1552501245561" expanded="true" signature="159:4235" ph="{...}" />
             <marker date="1552501245561" expanded="true" signature="219:4233" ph="{...}" />
             <marker date="1552501245561" expanded="true" signature="361:745" ph="{...}" />
@@ -338,30 +333,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hLevelsRuntime/AdditiveScene.cs">
+    <entry file="file://$PROJECT_DIR$/hLevelsRuntime/HLoad.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="173">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="24" selection-end-column="27" />
           <folding>
-            <marker date="1552504069550" expanded="true" signature="6:29" ph="..." />
-            <marker date="1552504069550" expanded="true" signature="55:416" ph="{...}" />
-            <marker date="1552504069550" expanded="true" signature="194:414" ph="{...}" />
+            <marker date="1552556521143" expanded="false" signature="6:90" ph="..." />
+            <marker date="1552556521143" expanded="true" signature="116:1468" ph="{...}" />
+            <marker date="1552556521143" expanded="true" signature="148:1466" ph="{...}" />
+            <marker date="1552556521143" expanded="true" signature="232:766" ph="{...}" />
+            <marker date="1552556521143" expanded="true" signature="582:675" ph="{...}" />
+            <marker date="1552556521143" expanded="true" signature="858:1066" ph="{...}" />
+            <marker date="1552556521143" expanded="true" signature="1164:1296" ph="{...}" />
+            <marker date="1552556521143" expanded="true" signature="1384:1460" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hLevelsRuntime/HLoad.cs">
+    <entry file="file://$PROJECT_DIR$/hLevelsRuntime/AdditiveScene.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="93" lean-forward="true" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+        <state relative-caret-position="150">
+          <caret line="11" column="92" lean-forward="true" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
           <folding>
-            <marker date="1552504074177" expanded="true" signature="6:90" ph="..." />
-            <marker date="1552504074177" expanded="true" signature="116:1181" ph="{...}" />
-            <marker date="1552504074177" expanded="true" signature="148:1179" ph="{...}" />
-            <marker date="1552504074177" expanded="true" signature="228:479" ph="{...}" />
-            <marker date="1552504074177" expanded="true" signature="571:779" ph="{...}" />
-            <marker date="1552504074177" expanded="true" signature="877:1009" ph="{...}" />
-            <marker date="1552504074177" expanded="true" signature="1097:1173" ph="{...}" />
+            <marker date="1552556077132" expanded="false" signature="6:29" ph="..." />
+            <marker date="1552556077132" expanded="true" signature="55:416" ph="{...}" />
+            <marker date="1552556077132" expanded="true" signature="194:414" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hLevelsRuntime/HLoadAsync.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <marker date="1552556862058" expanded="true" signature="6:94" ph="..." />
+            <marker date="1552556862058" expanded="true" signature="120:1461" ph="{...}" />
+            <marker date="1552556862058" expanded="true" signature="157:1459" ph="{...}" />
+            <marker date="1552556862058" expanded="true" signature="246:797" ph="{...}" />
+            <marker date="1552556862058" expanded="true" signature="613:706" ph="{...}" />
+            <marker date="1552556862058" expanded="true" signature="902:1049" ph="{...}" />
+            <marker date="1552556862058" expanded="true" signature="1158:1263" ph="{...}" />
+            <marker date="1552556862058" expanded="true" signature="1348:1453" ph="{...}" />
           </folding>
         </state>
       </provider>

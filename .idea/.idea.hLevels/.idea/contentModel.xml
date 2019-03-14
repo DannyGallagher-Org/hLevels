@@ -26,6 +26,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="hLevelsRuntime.csproj" t="IncludeRecursive" />
         <e p="HLoad.cs" t="Include" />
+        <e p="HLoadAsync.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
