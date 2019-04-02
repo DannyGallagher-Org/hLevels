@@ -9,6 +9,20 @@ namespace hLevels
 {
     public static class HLoad
     {
+        public static IPromise LoadSceneSingle(string sceneName, LoadSceneMode loadMode, bool debugMeOnLoad)
+        {
+            var promise = new Promise();
+
+            PromiseLoadScene(sceneName, loadMode, debugMeOnLoad)
+                .Then(() =>
+                {
+                    Debug.Log("Scenes are all loaded.");
+                })
+                .Finally(() => promise.Resolve());
+
+            return promise;
+        }
+        
         public static IPromise LoadAdditiveScenesFromList(string[] levelList, bool debugMeOnLoad)
         {
             var promise = new Promise();
